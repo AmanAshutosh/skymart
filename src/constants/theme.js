@@ -1,0 +1,43 @@
+export const COLORS = {
+  light: {
+    bg: "#f0f4ff",
+    surface: "#ffffff",
+    surfaceAlt: "#f7f9ff",
+    primary: "#2563eb",
+    primaryHover: "#1d4ed8",
+    primaryLight: "#dbeafe",
+    accent: "#0ea5e9", 
+    text: "#0f172a",
+    textMuted: "#64748b",
+    textLight: "#94a3b8",
+    border: "#e2e8f0",
+    success: "#10b981",
+    danger: "#ef4444",
+    warning: "#f59e0b",
+    shadow: "0 10px 40px rgba(37,99,235,0.15)", 
+    cardShadow: "0 2px 12px rgba(0,0,0,0.06)",
+    glow: "0 0 15px rgba(14,165,233,0.5)", 
+  },
+  dark: {
+    bg: "#0b1120",
+    surface: "#131d2e",
+    surfaceAlt: "#1a2640",
+    primary: "#3b82f6",
+    primaryHover: "#60a5fa",
+    primaryLight: "#1e3a5f",
+    accent: "#38bdf8",
+    text: "#f1f5f9",
+    textMuted: "#94a3b8",
+    textLight: "#64748b",
+    border: "#1e3a5f",
+    success: "#34d399",
+    danger: "#f87171",
+    warning: "#fbbf24",
+    shadow: "0 10px 40px rgba(0,0,0,0.4)",
+    cardShadow: "0 2px 12px rgba(0,0,0,0.3)",
+    glow: "0 0 20px rgba(56,189,248,0.6)",
+  },
+};
+
+export const GF =
+  "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');";

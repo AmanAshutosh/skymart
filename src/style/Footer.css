@@ -1,0 +1,27 @@
+.footer-divider {
+  height: 1px;
+  width: 84%;
+  margin: 40px auto 0;
+}
+
+.footer-container {
+  padding: 30px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-text {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.footer-credits {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .footer-container { flex-direction: column; gap: 10px; text-align: center; }
+}

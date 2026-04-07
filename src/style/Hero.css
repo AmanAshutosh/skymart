@@ -1,0 +1,117 @@
+.dashboard-hero {
+  padding: 50px 8%;
+  margin: 24px 8%;
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+}
+
+.greeting-pill {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.hero-main-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.user-name-display {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 900;
+  background: linear-gradient(90deg, #2563eb, #0ea5e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+}
+
+.hero-text h1 {
+  font-size: clamp(32px, 4vw, 48px);
+  letter-spacing: -0.04em;
+  margin-bottom: 12px;
+}
+
+.hero-desc {
+  max-width: 480px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btn-primary { 
+  color: white; 
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3); 
+}
+
+.btn-primary:hover { 
+  transform: translateY(-2px); 
+  opacity: 0.9; 
+}
+
+
+.btn-secondary {
+  background: transparent;
+  border-width: 1.5px !important;
+  border-style: solid !important;
+}
+
+.btn-secondary:hover {
+  background: rgba(128, 128, 128, 0.1);
+  transform: translateY(-2px);
+}
+
+.hero-stats-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mini-stat-box {
+  padding: 24px;
+  border-radius: 20px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: transform 0.3s;
+}
+
+/* MOBILE  */
+@media (max-width: 850px) {
+  .dashboard-hero { margin: 16px 4%; padding: 40px 24px; }
+  .hero-main-card { flex-direction: column; text-align: center; }
+  .hero-desc { margin-left: auto; margin-right: auto; }
+  .hero-btns { justify-content: center; }
+  .hero-stats-mini { 
+    flex-direction: row; 
+    width: 100%; 
+    gap: 12px;
+  }
+  .mini-stat-box { 
+    flex: 1; 
+    min-width: 0;
+    padding: 16px 8px;
+  }
+}
