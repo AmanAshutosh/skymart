@@ -1,4 +1,4 @@
-# SkyMart 🚀 
+# SkyMart
 ### A Next-Generation E-commerce Experience
 
 SkyMart is a high-performance, responsive e-commerce web application built with **React**, **React Router**, and **Vite**. It features a sleek dark/light mode toggle, a dynamic shopping cart system, and a professional product showcase.
